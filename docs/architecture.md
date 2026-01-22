@@ -86,7 +86,7 @@ Traditional self-refinement systems suffer from correlated errors because the sa
 
 **Adversarial Prompt Strategy:**
 ```
-You are a HOSTILE code reviewer. Your job is to find ALL 
+You are a HOSTILE code reviewer. Your job is to find ALL
 possible issues, bugs, vulnerabilities, and problems.
 
 Be extremely critical and thorough. Look for:
