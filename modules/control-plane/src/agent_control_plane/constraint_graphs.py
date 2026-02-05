@@ -240,7 +240,7 @@ class PolicyGraph(ConstraintGraph):
         for edge in self.get_edges_to(resource_id):
             if edge.edge_type == "deny":
                 policy_node = self.get_node(edge.from_node)
-                violations.append(f"Policy violation: {policy_node.name}")
+                violations.append(f"Policy '{policy_node.name}' blocks access to resource '{resource_id}' for role '{agent_role}'")
         
         return violations
 
